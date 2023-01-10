@@ -7,7 +7,7 @@ app.get("/statuses", (req, res, next) => {
   res.json(statuses);
 });
 app.get("/tasks", (req, res, next) => {
-  res.json(statuses);
+  res.json(tasks);
 });
 
 app.listen(3000, () => {
